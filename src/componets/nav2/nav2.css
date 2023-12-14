@@ -1,0 +1,71 @@
+
+
+.nav2Navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.nav2Ul{
+    display: flex;
+    gap: 60px;
+    
+}
+.nav2Li{
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.serchedNav2{
+    width: 400px;
+    height: 35px;
+}
+
+.nav2logo{
+    width: 120px;
+}
+
+.nav2li-Login-Wishlist{
+    line-height: 36px;
+}
+
+@media(max-width:940px){
+    .serchedNav2{
+         display: none;
+    }
+}
+@media(max-width:513px){
+    .nav2Li{
+        list-style: none;
+        font-size: 0.7em;
+    }
+
+    .nav2logo{
+        width: 90px;
+    }
+    .nav2Ul{
+        display: flex;
+        gap: 20px;
+        
+    }
+}
+@media(max-width:320px){
+    
+
+    
+    .nav2logo{
+        width: 90px;
+    }
+    .nav2Ul{
+        display: flex;
+        gap: 20px;
+        
+        
+    }
+}
+@media(max-width:280px){
+    
+
+    
+   
+}

@@ -1,0 +1,440 @@
+
+
+
+.NewAriValsdiv-1{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.NewAriValsdiv-1:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+.NewAriValsdiv-1 img{
+    width: 200px;
+}
+
+.mainNewAriValsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 85px;
+}
+
+.newAriVals-icons {
+    color: #ff6c00;
+    font-size: 0.6em;
+
+}
+
+.newArivals-btn-main {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.newArivals-btn {
+    border: 1px solid rgb(199, 192, 192);
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    transition: 1s linear 0s;
+}
+
+
+.arivals-icon-btn {
+    margin-top: 11px;
+}
+
+.newArivals-btn:hover {
+    background-color: rgb(15, 15, 180);
+}
+
+.arivals-icon-btn:hover {
+    color: white;
+}
+
+
+.arivals-price{
+    color:  rgb(15, 15, 180);
+}
+
+
+.NewAriVal-heading-text{
+ margin-left: 10px;
+}
+
+.NewAriVal-heading-text h1{
+    font-family: sans-serif;
+    border-bottom: 5px solid red;
+    width: 200px;
+    font-size: 1.6em;
+}
+.new{
+    color: gray;
+}
+
+@media(max-width:1246px){
+    
+
+.NewAriValsdiv-1{
+    width: 380px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 125px;
+}
+}
+
+@media(max-width:1175px){
+    
+
+.NewAriValsdiv-1{
+    width: 370px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 123px;
+}
+}
+
+@media(max-width:753px){
+    
+
+.NewAriValsdiv-1{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 110px;
+}
+}
+
+@media(max-width:716px){
+    
+
+.NewAriValsdiv-1{
+    width: 330px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 100px;
+}
+}
+
+@media(max-width:675px){
+    
+
+.NewAriValsdiv-1{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 80px;
+}
+}
+
+@media(max-width:616px){
+    
+
+.NewAriValsdiv-1{
+    width: 280px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 70px;
+}
+}
+
+@media(max-width:572px){
+    
+
+.NewAriValsdiv-1{
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 60px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 180px;
+}
+}
+
+@media(max-width:512px){
+    
+
+.NewAriValsdiv-1{
+    width: 230px;
+    height: 370px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: 50px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 150px;
+}
+}
+
+@media(max-width:465px){
+    
+
+.NewAriValsdiv-1{
+    width: 210px;
+    height: 370px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 110px;
+    font-size: 0.7em;
+    margin-left: 50px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 130px;
+}
+
+.arrivals-title{
+    font-size: 0.9em;
+}
+}
+@media(max-width:435px){
+    
+
+.NewAriValsdiv-1{
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 110px;
+    font-size: 0.7em;
+    margin-left: 50px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 120px;
+}
+
+.arrivals-title{
+    font-size: 0.9em;
+}
+
+
+
+}
+@media(max-width:416px){
+    
+
+.NewAriValsdiv-1{
+    width: 180px;
+    height: 320px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 110px;
+    font-size: 0.7em;
+    margin-left: 35px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 100px;
+}
+
+.arrivals-title{
+    font-size: 0.9em;
+}
+.newArivals-btn-main {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.newArivals-btn {
+    border: 1px solid rgb(199, 192, 192);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 1s linear 0s;
+}
+
+.arivals-icon-btn {
+    margin-top: 8px;
+}
+
+
+}
+@media(max-width:376px){
+    
+
+.NewAriValsdiv-1{
+    width: 160px;
+    height: 290px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 110px;
+    font-size: 0.7em;
+    margin-left: 25px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 80px;
+}
+
+.arrivals-title{
+    font-size: 0.6em;
+}
+.newArivals-btn-main {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.newArivals-btn {
+    border: 1px solid rgb(199, 192, 192);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 1s linear 0s;
+}
+
+.arivals-icon-btn {
+    margin-top: 8px;
+}
+
+
+}
+@media(max-width:355px){
+    
+
+.NewAriValsdiv-1{
+    width: 150px;
+    height: 280px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    transition: 0.4s linear 0s;
+}
+
+.dec-newArivals{
+    width: 110px;
+    font-size: 0.7em;
+    margin-left: 20px;
+}
+
+.NewAriValsdiv-1 img{
+    width: 80px;
+}
+
+.arrivals-title{
+    font-size: 0.6em;
+}
+.newArivals-btn-main {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.newArivals-btn {
+    border: 1px solid rgb(199, 192, 192);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 1s linear 0s;
+}
+
+.arivals-icon-btn {
+    margin-top: 8px;
+}
+
+
+}

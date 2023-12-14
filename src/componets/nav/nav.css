@@ -1,0 +1,133 @@
+
+
+.navWala{
+    display: flex;
+    background-color: #3459ab;
+    /* transition: 1s linear 0s; */
+    height: 50px;
+
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 60px;
+    display: none;
+}
+
+.myUL{
+    display: flex;
+    gap: 70px;
+    /* justify-content: space-around; */
+    /* transition: 1s linear 0s; */
+}
+
+#MyLi{
+    list-style: none;
+    /* line-height: 40px; */
+}
+/* #MyLi:hover{
+    background-color: white;
+    height: 40px;
+} */
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+   
+}
+a:hover{
+   color: black;
+}
+
+.menuBar{
+    position: absolute;
+    top: 83px;
+    right: 20px;
+    font-size: 1.7em;
+    display: none;
+}
+
+
+
+
+@media(max-width:1260px){
+
+    .menuBar{
+        display: block;
+        top: 130px;
+
+    }
+    .navWala{
+        height: 100%;
+        /* width: 100%; */
+    }
+    .myUL{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    #MyLi{
+        
+        display: none;
+        /* width: 90%; */
+    }
+
+    #MyLi.open{
+        display: block;
+        /* transition: 1s linear 0s; */
+    }
+
+   
+    
+}
+
+@media(max-width:770px){
+    .menuBar{
+        top: 80px;
+       
+    }
+}
+
+.My-Under-Wala-ul{
+position: absolute;
+left: 0;
+opacity: 0;
+background-color: white;
+transition: 0.3s linear 0s;
+width: 90%;
+display: flex;
+justify-content: space-around;
+height: 160px;
+margin-top: -3px;
+}
+
+.my-Li-Under-Wali{
+  list-style: none;
+  line-height: 65px;
+}
+#MyLi:hover .My-Under-Wala-ul{
+    opacity: 1;
+}
+
+
+@media(max-width:850px){
+    #MyLi:hover .My-Under-Wala-ul{
+        /* opacity: 0; */
+        display: none;
+    }
+
+    .My-Under-Wala-ul{
+        
+        width: 60%;
+        
+        }
+        
+    
+}
+
+.computer1img{
+    width: 170px;
+}
+

@@ -1,0 +1,90 @@
+
+
+
+.TopBranDiv-1 img{
+    width: 120px;
+    border: 1px solid gray;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.TopBranDiv-1{
+    margin: 20px;
+    
+}
+
+
+
+.topBrand-heding{
+    margin-left: 10px;
+   }
+   
+   .topBrand-heding h1{
+       font-family: sans-serif;
+       border-bottom: 5px solid red;
+       width: 200px;
+       font-size: 1.6em;
+   }
+   .top{
+       color: gray;
+   }
+
+
+   @media(max-width:769px){
+    .TopBranDiv-1 img{
+        width: 100px;
+        border: 1px solid gray;
+        height: 40px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    
+    .TopBranDiv-1{
+        margin: 20px;
+        
+    }
+   }
+
+   @media(max-width:430px){
+    .TopBranDiv-1 img{
+        width: 100px;
+        border: 1px solid gray;
+        height: 40px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    
+    .TopBranDiv-1{
+        margin: 20px;
+        
+    }
+   }
+   @media(max-width:376px){
+    .TopBranDiv-1 img{
+        width: 100px;
+        border: 1px solid gray;
+        height: 40px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+    
+    .TopBranDiv-1{
+        margin: 20px;
+        
+    }
+   }
+   @media(max-width:346px){
+    .TopBranDiv-1 img{
+        width: 100px;
+        border: 1px solid gray;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    
+    .TopBranDiv-1{
+        margin: 20px;
+        
+    }
+   }

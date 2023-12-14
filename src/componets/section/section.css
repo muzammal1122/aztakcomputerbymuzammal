@@ -1,0 +1,11 @@
+
+
+.section2pic{
+    width: 100%;
+}
+
+@media(max-width:850px){
+    .section2pic{
+        display: none;
+    }
+}
